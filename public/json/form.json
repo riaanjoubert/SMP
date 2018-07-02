@@ -1,0 +1,29 @@
+{
+	"ticksSets" : [
+		{
+			"id": "tickSet1",
+			"ticks": [
+				{
+					"id" : "tick1" 
+				},
+				{
+					"id" : "tick2" 
+				}
+			] 
+		},
+		{
+			"id": "tickSet2",
+			"ticks": [
+				{
+					"id" : "tick1" 
+				},
+				{
+					"id" : "tick2" 
+				},
+				{
+					"id" : "tick3" 
+				}
+			] 
+		}
+	]
+}

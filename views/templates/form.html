@@ -1,0 +1,11 @@
+<script type="text/x-template" id="tickSet-template">
+    <div :id="tickset.id" class="container"> {{tickset.id}}
+        <ticks v-for="ticks in tickset.ticks" :key="ticks.id" :ticks="ticks"></ticks>    
+    </div>
+</script>
+
+<script type="text/x-template" id="ticks-template">
+    <div class="row" :id="ticks.id + '_row'">
+       <div class="col-sm-12">{{ticks.id}}</div>   
+    </div>
+</script>
