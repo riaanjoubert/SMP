@@ -10,7 +10,7 @@ var http = require('http');
  * Get port from environment and store in Express.
  */
 
-var port = normalizePort(process.env.PORT || '80');
+var port = normalizePort(process.env.PORT || '22');
 app.set('port', port);
 const awsServerlessExpress = require('aws-serverless-express')
 const server = awsServerlessExpress.createServer(app)
